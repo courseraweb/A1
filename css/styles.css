@@ -20,14 +20,15 @@ h1 {
 div.row div{
 	border: 1px solid black;
 	background-color: lightgrey;
-	/*margin: 10px;*/
+	margin: 10px;
 }
 
 div.row div section{
 	color: red;
 	clear: right;
 	padding: 10px;
-	height: 100px;
+	height: 150px;
+	overflow: auto;
 }
 
 #h1 {
@@ -58,7 +59,7 @@ div.row div section{
     width: 25%;
   }
   .col-lg-4 {
-    width: 33.33%;
+    width: 31.00%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -107,7 +108,7 @@ div.row div section{
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 47.3%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -125,6 +126,6 @@ div.row div section{
     width: 91.66%;
   }
   .col-md-12 {
-    width: 100%;
+    width: 98%;
   }
 }
