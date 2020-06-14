@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p, h2 ,h1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h1 {
@@ -25,14 +31,17 @@ h1 {
 div.row div{
 	border: 1px solid black;
 	background-color: lightgrey;
-	margin: 10px;
+	margin: 20px 10px;
+	overflow: auto;
+	/*height: 200px;*/
 }
 
 .token{
 	color: red;
-	clear: right;
+	clear: both;
 	padding: 10px;
-	overflow: auto;
+	/*overflow: auto;*/
+	text-align: justify;
 	font-size: 100%;
 }
 
